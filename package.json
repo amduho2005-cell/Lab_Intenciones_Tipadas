@@ -1,0 +1,27 @@
+{
+  "name": "laboratorio-intenciones-tipadas",
+  "version": "1.0.0",
+  "description": "Generador/Randomizer de Personajes de D&D en Node.js — Laboratorio de Intenciones Tipadas",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "start:js": "node src/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "dnd",
+    "typescript",
+    "javascript",
+    "generador-personajes",
+    "laboratorio"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "tsx": "^4.23.13",
+    "typescript": "^5.9.3"
+  }
+}
